@@ -1,4 +1,3 @@
-
 # Simple Shell Project
 A group project at ALX to build a simple UNIX command interpreter.
 
