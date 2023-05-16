@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 /**
   * print_ps1 - prints the primary shell prompt
