@@ -52,5 +52,11 @@ char *_strdup(char *);
 char **tokenize_str(char *, char *);
 int _strcmp(char *, char *);
 
+/* Promt Utils funcs */
+void print_ps1(int);
+char *find_pathname(char **, char *);
+char *_getenv(const char *);
+char *make_pathname(char *, char *);
+char **get_path(char **);
 
 #endif
