@@ -59,4 +59,6 @@ char *_getenv(const char *);
 char *make_pathname(char *, char *);
 char **get_path(char **);
 
+/* Func Prototypes */
+char *_strtok(char *, const char *);
 #endif
