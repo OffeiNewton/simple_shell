@@ -61,4 +61,14 @@ char **get_path(char **);
 
 /* Func Prototypes */
 char *_strtok(char *, const char *);
+
+/* prompt_util2.c */
+void free_shell_t(shell_t *);
+void p_commanderr(char *, char *);
+
+
+/* buildin.c */
+void my_exit(shell_t *);
+void print_env(shell_t *);
+
 #endif
