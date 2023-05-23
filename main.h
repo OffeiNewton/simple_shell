@@ -62,7 +62,7 @@ char **get_path(char **);
 /* Func Prototypes */
 char *_strtok(char *, const char *);
 
-/* prompt_util2.c */
+/* Prompts Extras */
 void free_shell_t(shell_t *);
 void p_commanderr(char *, char *);
 
@@ -71,4 +71,9 @@ void p_commanderr(char *, char *);
 void my_exit(shell_t *);
 void print_env(shell_t *);
 
+/* Main Entry */
+int run_build_in(shell_t *, char *);
+int run_command(shell_t *, char *, char **);
+int run_path(shell_t *, char *);
+int check_slash(char *);
 #endif
